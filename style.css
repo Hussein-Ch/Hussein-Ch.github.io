@@ -122,3 +122,18 @@ p {
 .post-container:nth-child(even) {
   background-color: #f2f2f2;
 }
+
+#burgermenu {
+  position: relative;
+  display: inline-block;
+  background-color: #1abc9c;
+  padding: 15px;
+  right: -100px;
+  cursor: pointer;
+}
+
+#burgermenu div {
+  margin: 5px;
+  padding: 2px 15px;
+  background-color: white;
+}
